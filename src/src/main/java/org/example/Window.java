@@ -7,15 +7,12 @@ import javax.swing.*;
 public class Window {
    public void initWindow(){
 
-       final MySquare sq = new MySquare();
-       final MyCircle ci = new MyCircle();
-       final MyRectangle re = new MyRectangle();
-       final MyOval ov = new MyOval();
+       new MySquare();
+       new MyCircle();
+       new MyRectangle();
+       new MyOval();
 
-//       sq.draw();
-//       ci.draw();
-//       re.draw();
-//       ov.draw();
+       Timer timer = new Timer(15, GravityUpdate.getInstance());
 
 
        JFrame frame = new JFrame("Draw Shapes");

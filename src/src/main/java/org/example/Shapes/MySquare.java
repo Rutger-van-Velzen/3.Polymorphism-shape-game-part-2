@@ -1,6 +1,5 @@
 package org.example.Shapes;
 
-import org.example.DrawInstructions;
 import org.example.Panel;
 
 import java.awt.*;

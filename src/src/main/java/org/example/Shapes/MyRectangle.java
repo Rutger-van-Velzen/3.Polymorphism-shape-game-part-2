@@ -1,10 +1,8 @@
 package org.example.Shapes;
 
-import org.example.DrawInstructions;
 import org.example.Panel;
 
 import java.awt.*;
-import java.awt.geom.Ellipse2D;
 import java.awt.geom.Rectangle2D;
 
 public class MyRectangle implements Drawable{
