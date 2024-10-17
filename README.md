@@ -41,3 +41,6 @@ I needed those 2 fields to keep e reference to the Shape object and the `y` vari
 y++;
 ((Ellipse2D.Double) self).y = y;
 ```
+
+### Bonus Assignment:
+Add acceleration, to the falling objects for style points! 😎
