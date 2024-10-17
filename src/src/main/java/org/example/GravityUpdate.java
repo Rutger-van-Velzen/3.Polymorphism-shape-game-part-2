@@ -14,7 +14,8 @@ public class GravityUpdate implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-
+        updateAllGravityObjects();
+        Panel.getInstance().repaint();
     }
 
     private void updateAllGravityObjects(){
