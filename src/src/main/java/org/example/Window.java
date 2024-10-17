@@ -6,14 +6,13 @@ import javax.swing.*;
 
 public class Window {
    public void initWindow(){
-
        new MySquare();
        new MyCircle();
        new MyRectangle();
        new MyOval();
 
        Timer timer = new Timer(15, GravityUpdate.getInstance());
-
+       timer.start();
 
        JFrame frame = new JFrame("Draw Shapes");
        frame.add(Panel.getInstance());
